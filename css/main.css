@@ -1536,9 +1536,9 @@ a.menu-toggle {
 		padding-bottom: 0;
 	}
 	.research-content .image-part {
-		width: 300px;
 		position: absolute;
-		bottom: -630px;
+		width: 230px;
+    bottom: -375px;
 		left: 50%;
 		margin-left: -150px;
 	}
@@ -1549,7 +1549,7 @@ a.menu-toggle {
 	}
 	.research-content .image-part {
 		width: 230px;
-		bottom: -540px;
+		bottom: -375px;
 		margin-left: -115px;
 	}
 }
@@ -2199,16 +2199,16 @@ a.menu-toggle {
  * -------------------------------------------------------------------
  */
 
-#faq {
+#collaborations {
 	background: #EAEAED;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
-.faq-content {
+.collaborations-content {
 	margin-top: 5.4rem;
 	max-width: 1020px;
 }
-.faq-content .bgrid {
+.collaborations-content .bgrid {
 	padding: 0 30px;
 }
 
@@ -2219,17 +2219,17 @@ a.menu-toggle {
  */
 
 @media only screen and (max-width:768px) {
-	.faq-content {
+	.collaborations-content {
 		max-width: 650px;
 	}
 }
 @media only screen and (max-width:480px) {
-	.faq-content .bgrid {
+	.collaborations-content .bgrid {
 		padding: 0 20px;
 	}
 }
 @media only screen and (max-width:400px) {
-	.faq-content .bgrid {
+	.collaborations-content .bgrid {
 		padding: 0;
 	}
 }
