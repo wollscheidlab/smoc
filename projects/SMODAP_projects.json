@@ -1,0 +1,144 @@
+projects = '[
+        {
+			
+				"project_name": "PHRT_005",
+				"project_id": "5",
+				"cohort_size": 230,
+				"project_start_date": "2019-12-01",
+				"project_end_date": "2020-05-01",
+				"keywords": "MMA, proteomics, genomics, multi-omics, clinical research",
+				"species": "Human",
+				"condition": "Methylmalonic Acidemia",
+				"description": "Clinical question: Can multi-omic molecular profiles explain the disease mechanisms of MMA? Tissue for this study was collected from all over Europe and characterized for a confirmatory cohort of 230 individuals with MMA. ",
+				"people": {
+					"data manager": {
+						"name": "Matthias Baumgartner",
+						"affiliation": "Universitäts-Kinderspital Zürich",
+						"orcid_id": "0000-0001-8118-4670"
+					},
+					"project leader": {
+						"name": "Matthias Baumgartner",
+						"affiliation": "Universitäts-Kinderspital Zürich",
+						"orcid_id": "0000-0001-8118-4670"
+					}
+				},
+				"center": [{
+						"name": "PHRT-CPAC",
+						"leomed_data_package_location": "/path/on/leomed/PHRT_005/PHRT-CPAC/",
+						"leomed_data_package_name": "2021000sdfwer.tar",
+						"people": {
+							"data provider": {
+								"name": "Silvana Albert",
+								"affiliation": "ETH Zurich",
+								"orcid_id": "0000-0002-6260-0496"
+							},
+							"PHRT center leader": {
+								"name": "Bernd Wollscheid",
+								"affiliation": "ETH Zurich",
+								"orcid_id": "0000-0002-3923-1610"
+							}
+						}
+					},
+					{
+						"name": "PHRT-CGAC",
+						"leomed_data_package_location": "/path/on/leomed/PHRT_005/PHRT-CGAC/",
+						"leomed_data_package_name": "2021000sdfxxxxx.tar",
+						"people": {
+							"data provider": {
+								"name": "Ioannis Xenarios",
+								"affiliation": "ETH Zurich",
+								"orcid_id": "0000-0002-3413-6841"
+							},
+							"PHRT center leader": {
+								"name": "Ioannis Xenarios",
+								"affiliation": "ETH Zurich",
+								"orcid_id": "0000-0002-3413-6841"
+							}
+						}
+					}
+				]
+			},
+			{
+				"project_name": "PHRT_005",
+				"project_id": "5",
+				"cohort_size": 125,
+				"project_start_date": "2021-04-01",
+				"project_end_date": "2023-05-01",
+				"keywords": "Ovarian, proteomics, genomics, multi-omics, clinical research",
+				"species": "Human",
+				"condition": "Ovarian Serous Cystadenocarcinoma",
+				"description": "Ovarian tissue samples in this collection include both tumor (100 participants) and normal (25 participants) tissue investigated with global proteomic, phosphoproteomic, and glycoproteome analyses",
+				"people": {
+					"data manager": {
+						"name": "Matthias Baumgartner",
+						"affiliation": "Universitäts-Kinderspital Zürich",
+						"orcid_id": "0000-0001-8118-4670"
+					},
+					"project leader": {
+						"name": "Matthias Baumgartner",
+						"affiliation": "Universitäts-Kinderspital Zürich",
+						"orcid_id": "0000-0001-8118-4670"
+					}
+				},
+				"center": [{
+						"name": "PHRT-CGAC",
+						"leomed_data_package_location": "/path/on/leomed/PHRT_005/PHRT-CGAC/",
+						"leomed_data_package_name": "2021000sdfxxxxx.tar",
+						"people": {
+							"data provider": {
+								"name": "Ioannis Xenarios",
+								"affiliation": "ETH Zurich",
+								"orcid_id": "0000-0002-3413-6841"
+							},
+							"PHRT center leader": {
+								"name": "Ioannis Xenarios",
+								"affiliation": "ETH Zurich",
+								"orcid_id": "0000-0002-3413-6841"
+							}
+						}
+					}
+				]
+			},
+			 {
+				"project_name": "PHRT_007",
+				"project_id": "5",
+				"cohort_size": 164,
+				"project_start_date": "2020-12-01",
+				"project_end_date": "2025-05-01",
+				"keywords": "MMA, proteomics, genomics, multi-omics, clinical research",
+				"species": "Human",
+				"condition": "Lung Adenocarcinoma",
+				"description": "One hundred tumors were investigated by label-free global proteomic profiling and 97 tumors were assayed with TMT10plex isobaric labeling quantification. Ninety-three tumor samples were analyzed by both methods. The total amount of data is 1.1 TB",
+				"people": {
+					"data manager": {
+						"name": "Matthias Baumgartner",
+						"affiliation": "Universitäts-Kinderspital Zürich",
+						"orcid_id": "0000-0001-8118-4670"
+					},
+					"project leader": {
+						"name": "Matthias Baumgartner",
+						"affiliation": "Universitäts-Kinderspital Zürich",
+						"orcid_id": "0000-0001-8118-4670"
+					}
+				},
+				"center": [{
+						"name": "PHRT-CPAC",
+						"leomed_data_package_location": "/path/on/leomed/PHRT_005/PHRT-CPAC/",
+						"leomed_data_package_name": "2021000sdfwer.tar",
+						"people": {
+							"data provider": {
+								"name": "Silvana Albert",
+								"affiliation": "ETH Zurich",
+								"orcid_id": "0000-0002-6260-0496"
+							},
+							"PHRT center leader": {
+								"name": "Bernd Wollscheid",
+								"affiliation": "ETH Zurich",
+								"orcid_id": "0000-0002-3923-1610"
+							}
+						}
+					}
+				]
+			}
+	]';
+

@@ -19,12 +19,28 @@
 
         // will fade out the whole DIV that covers the website.
         $("#preloader").delay(300).fadeOut("slow");
-
+	    // populateCatalogue()
       });       
-
   	})
 
+	function populateCatalogue() {
+		console.log("jq")
+		mydata = localStorage.getItem("mydata")
+		console.log(mydata)	
+		var data = {};
+		data.d = [{FirstName: 'Beaner', Age: '20'}, 
+				{FirstName: 'Cheese', Age: '98'},
+				{FirstName: 'Martin', Age: '45'}];
+		
+		$('#thetable tr').not(':first').not(':last').remove();
+		var html = '';
+		for(var i = 0; i < data.d.length; i++)
+					html += '<tr><td>' + data.d[i].FirstName + '</td><td>' + data.d[i].Age + '</td></tr>';
+		$('#thetable tr').first().after(html);
 
+
+		return;
+	  } 
 	/*----------------------------------------------------*/
 	/*	Sticky Navigation
 	------------------------------------------------------*/
@@ -207,6 +223,18 @@
     		e.preventDefault();
     		$.magnificPopup.close();
     });
+
+	$('#').load(function() {
+
+		// will first fade out the loading animation 
+		  $("#loader").fadeOut("slow", function(){
+  
+		  // will fade out the whole DIV that covers the website.
+		  $("#preloader").delay(300).fadeOut("slow");
+  
+		});       
+  
+		})
 
 
  	/*----------------------------------------------------- */

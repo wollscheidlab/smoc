@@ -12,9 +12,9 @@
             <!--- basic page needs
                ================================================== -->
             <meta charset="utf-8">
-            <title>SMOC</title>
+            <title>SMODAP</title>
             <!-- <meta name="description" content="Bernd Wollscheid Laboratory at the Institute of Translational Medicine & Department of Health Sciences and Technology of the ETH Zurich"> -->
-            <meta name="author" content="SMOC">
+            <meta name="author" content="SMODAP">
             <!-- <meta property="og:url"                content="https://www.wollscheidlab.org" /> -->
             <meta property="og:type"               content="website" />
             <!-- <meta property="og:title"              content="Welcome to the Wollscheid Lab" /> -->
@@ -35,6 +35,7 @@
             <!-- script
                ================================================== -->
             <script src="js/modernizr.js"></script>
+              <script src="js/particles.min.js"></script>
             <!-- favicons
                ================================================== -->
             <link rel="icon" type="image/png" href="favicon.ico">
@@ -45,7 +46,7 @@
             <header>
                <div class="row">
                   <div class="logo">
-                     <a href="index.html">SMOC</a>
+                     <a href="index.html">SMODAP</a>
                   </div>
                   <nav id="main-nav-wrap" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
                      <ul class="main-navigation">
@@ -55,6 +56,7 @@
                         <li><a class="smoothscroll"  href="#highlights">Highlights</a></li>
                           <li><a class="smoothscroll"  href="#collaborations">Partnerships</a></li>
                         <li><a class="smoothscroll"  href="#publications">Publications</a></li>
+                        <li><a onclick="location.href='catalogue.html'">Data Catalogue</a></li>
                         <li class="highlight with-sep"><a href="#contact">Contact us</a></li>
                      </ul>
                   </nav>
@@ -65,18 +67,26 @@
             <!-- intro section
                ================================================== -->
             <section id="intro">
-               <div class="shadow-overlay"></div>
-               <div class="intro-content">
-                  <div class="row">
-                     <div class="col-twelve">
-                        <h5>Welcome to the</h5>
-                        <h1>ETH PHRT</h1>
-                        <h1> Swiss Multi-Omics Center</h1>
-                        <h5>Integrated data analysis of  digitized clinical cohorts</h5>
-                        <a class="button stroke smoothscroll" href="#research" title="">LEARN MORE</a>
-                     </div>
+                <div id="particles-js">
+                <div class="intro-content">
+                    <div class="row">
+
+                            <div class="col-twelve">
+                                <h5>Welcome to the</h5>
+                                <h1>ETH PHRT</h1>
+                                <h1> Swiss Multi-Omics Data Analysis Pipeline</h1>
+                                <h5>Integrated data analysis of  digitized clinical cohorts</h5>
+                                <a class="button stroke smoothscroll" href="#research" title="">LEARN MORE</a>
+                            </div>
+
+                    </div>
                   </div>
-               </div>
+                  </div>
+               <!-- <div class="shadow-overlay"></div> -->
+               <!-- <div class="intro-content"> -->
+
+                  <!-- </div> -->
+               <!-- </div> -->
             </section>
             <!-- /intro -->
             <!-- research Section
@@ -84,11 +94,11 @@
             <section id="research">
                <div class="row section-intro">
                   <div class="col-twelve with-bottom-line">
-                     <h5>SMOC</h5>
-                     <h1>ETH PHRT </h1><h1>Swiss Multi-Omics Center</h1>
+                     <h5>SMODAP</h5>
+                     <h1>ETH PHRT </h1><h1>Swiss Multi-Omics Data Analysis Pipeline</h1>
                      <a target="_blank" href="https://www.sfa-phrt.ch/" >
                      <!-- "Proteomics Is Not an Island: Multi-omics Integration Is the Key to Understanding Biological Systems." -->
-                     "Each patient's individual molecular makeup and unique characteristics will be the basis for guiding the medical decisions and restoring health.
+                     <h3>"Each patient's individual molecular makeup and unique characteristics will be the basis for guiding the medical decisions and restoring health."</h3>
 "
                      </a>
                      <p></p>
@@ -169,7 +179,7 @@ Science Center (SDSC)."</strong><br/>
                   </div> -->
                   <!-- /right-side -->
                   <!-- <div class="image-part"></div> -->
-                   <img src="./images/flow.png" draggable="false">
+                   <img src="./images/flow.svg" draggable="false">
                </div>
                <!-- /research-content -->
             </section>
@@ -215,7 +225,7 @@ Science Center (SDSC)."</strong><br/>
                <!-- /faq-content -->
             </section>
             <!-- /faq -->
-            
+
             <!-- Publications Section
                ================================================== -->
             <section id="publications">
@@ -303,8 +313,8 @@ Science Center (SDSC)."</strong><br/>
                <div class="row">
                <div class="col-four tab-full mob-full footer-info">
                   <div class="">
-                     <img src='images/logo.png' style='height: 39px; margin-top: -5px; margin-right: 5px;' />
-                     <h4 style='display: inline; vertical-align: top;'>SMOC</h4>
+                     <img src='images/lsmodap.svg' style='height: 39px; margin-top: -5px; margin-right: 5px;' />
+                     <h4 style='display: inline; vertical-align: top;'>SMODAP</h4>
                   </div>
                   <ul>
                      <li>
@@ -320,7 +330,7 @@ Science Center (SDSC)."</strong><br/>
                <!-- /footer-info -->
                <div class="col-four tab-full mob-full footer-info">
                   <div class="">
-                     <img src='images/logo.png' style='height: 39px; margin-top: -5px; margin-right: 5px;' />
+                     <img src='images/lsmodap.svg' style='height: 39px; margin-top: -5px; margin-right: 5px;' />
                      <h4 style='display: inline; vertical-align: top;'>Connect</h4>
                   </div>
                   <ul>
@@ -334,7 +344,7 @@ Science Center (SDSC)."</strong><br/>
                <!-- /footer-info -->
                <div class="col-four tab-full mob-full footer-info">
                   <div class="">
-                     <img src='images/logo.png' style='height: 39px; margin-top: -5px; margin-right: 5px;' />
+                     <img src='images/lsmodap.svg' style='height: 39px; margin-top: -5px; margin-right: 5px;' />
                      <h4 style='display: inline; vertical-align: top;'>Site links</h4>
                   </div>
                   <ul>
@@ -347,7 +357,7 @@ Science Center (SDSC)."</strong><br/>
                   <div class="row">
                      <div class="col-twelve">
                         <div class="copyright">
-                           <span>© Copyright <a href="mailto:wbernd@ethz.ch">SMOC</a> 2020</span>
+                           <span>© Copyright <a href="mailto:wbernd@ethz.ch">SMODAP</a> 2021</span>
                            <span>Hosted by <a href="https://www.dreamhost.com/">Dreamhost</a>.</span>
                            <span>Template by <a href="http://www.styleshout.com/">Styleshout</a>.</span>
                         </div>
@@ -369,6 +379,7 @@ Science Center (SDSC)."</strong><br/>
             <script src="js/jquery-migrate-1.2.1.min.js"></script>
             <script src="js/plugins.js"></script>
             <script src="js/main.js"></script>
+            <script src="js/particles.js"></script>
             <!--script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-1.10.2.js"></script-->
             <!-- <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.js"></script> -->
             <!-- <script type="text/javascript">
