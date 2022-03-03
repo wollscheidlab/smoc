@@ -1,9 +1,9 @@
-/** 
+/**
  * ===================================================================
  * main js
  *
- * ------------------------------------------------------------------- 
- */ 
+ * -------------------------------------------------------------------
+ */
 
 (function($) {
 
@@ -11,27 +11,43 @@
 
 	/*---------------------------------------------------- */
 	/* Preloader
-	------------------------------------------------------ */ 
+	------------------------------------------------------ */
    $(window).load(function() {
 
-      // will first fade out the loading animation 
+      // will first fade out the loading animation
     	$("#loader").fadeOut("slow", function(){
 
         // will fade out the whole DIV that covers the website.
         $("#preloader").delay(300).fadeOut("slow");
 	    // populateCatalogue()
-      });       
+       });
+        toggleTeamMembers();
+
   	})
+
+  function toggleTeamMembers() {
+    var x = document.getElementById("collapsible-content");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      $("#collapsible-button").html("Hide FAQ");
+    } else {
+      x.style.display = "none";
+      $("#collapsible-button").html("Show FAQ");
+    }
+  }
+  $("#collapsible-button").click(function () {
+    toggleTeamMembers();
+  });
 
 	function populateCatalogue() {
 		console.log("jq")
 		mydata = localStorage.getItem("mydata")
-		console.log(mydata)	
+		console.log(mydata)
 		var data = {};
-		data.d = [{FirstName: 'Beaner', Age: '20'}, 
+		data.d = [{FirstName: 'Beaner', Age: '20'},
 				{FirstName: 'Cheese', Age: '98'},
 				{FirstName: 'Martin', Age: '45'}];
-		
+
 		$('#thetable tr').not(':first').not(':last').remove();
 		var html = '';
 		for(var i = 0; i < data.d.length; i++)
@@ -40,7 +56,7 @@
 
 
 		return;
-	  } 
+	  }
 	/*----------------------------------------------------*/
 	/*	Sticky Navigation
 	------------------------------------------------------*/
@@ -48,20 +64,20 @@
 
 		var y = $(window).scrollTop(),
 		    topBar = $('header');
-     
+
 	   if (y > 1) {
 	      topBar.addClass('sticky');
 	   }
       else {
          topBar.removeClass('sticky');
       }
-    
+
 	});
-	
+
 
 	/*-----------------------------------------------------*/
   	/* Mobile Menu
-   ------------------------------------------------------ */  
+   ------------------------------------------------------ */
    var toggleButton = $('.menu-toggle'),
        nav = $('.main-navigation');
 
@@ -79,12 +95,12 @@
     	else nav.removeClass('mobile');
   	});
 
-  	$('#main-nav-wrap li a').on("click", function() {   
+  	$('#main-nav-wrap li a').on("click", function() {
 
-   	if (nav.hasClass('mobile')) {   		
-   		toggleButton.toggleClass('is-clicked'); 
-   		nav.fadeOut();   		
-   	}     
+   	if (nav.hasClass('mobile')) {
+   		toggleButton.toggleClass('is-clicked');
+   		nav.fadeOut();
+   	}
   	});
 
 
@@ -92,7 +108,7 @@
   	/* Highlight the current section in the navigation bar
   	------------------------------------------------------*/
 	var sections = $("section"),
-	navigation_links = $("#main-nav-wrap li a");	
+	navigation_links = $("#main-nav-wrap li a");
 
 	sections.waypoint( {
 
@@ -104,12 +120,12 @@
 
 			if (direction === "up") active_section = active_section.prev();
 
-			var active_link = $('#main-nav-wrap a[href="#' + active_section.attr("id") + '"]');			
+			var active_link = $('#main-nav-wrap a[href="#' + active_section.attr("id") + '"]');
 
          navigation_links.parent().removeClass("current");
 			active_link.parent().addClass("current");
 
-		}, 
+		},
 
 		offset: '25%'
 
@@ -141,7 +157,7 @@
   	/* Smooth Scrolling
   	------------------------------------------------------*/
   	$('.smoothscroll').on('click', function (e) {
-	 	
+
 	 	e.preventDefault();
 
    	var target = this.hash,
@@ -153,14 +169,14 @@
       	window.location.hash = target;
       });
 
-  	});  
-  
+  	});
+
 
    /*----------------------------------------------------*/
 	/*  Placeholder Plugin Settings
-	------------------------------------------------------*/ 
+	------------------------------------------------------*/
 
-	$('input, textarea, select').placeholder()  
+	$('input, textarea, select').placeholder()
 
 
 	/*---------------------------------------------------- */
@@ -201,7 +217,7 @@
 
 	/*---------------------------------------------------- */
 	/* FitVids
-	------------------------------------------------------ */ 
+	------------------------------------------------------ */
   	$(".fluid-video-wrapper").fitVids();
 
 
@@ -215,7 +231,7 @@
        fixedContentPos: false,
        removalDelay: 200,
        showCloseBtn: false,
-       mainClass: 'mfp-fade'       
+       mainClass: 'mfp-fade'
 
     });
 
@@ -226,20 +242,20 @@
 
 	$('#').load(function() {
 
-		// will first fade out the loading animation 
+		// will first fade out the loading animation
 		  $("#loader").fadeOut("slow", function(){
-  
+
 		  // will fade out the whole DIV that covers the website.
 		  $("#preloader").delay(300).fadeOut("slow");
-  
-		});       
-  
+
+		});
+
 		})
 
 
  	/*----------------------------------------------------- */
   	/* Back to top
-   ------------------------------------------------------- */ 
+   ------------------------------------------------------- */
 	var pxShow = 300; // height on which the button will show
 	var fadeInTime = 400; // how slow/fast you want the button to show
 	var fadeOutTime = 400; // how slow/fast you want the button to hide
@@ -256,8 +272,8 @@
 				jQuery("#go-top").fadeOut(fadeOutTime);
 			}
 
-		}		
+		}
 
-	});		
+	});
 
 })(jQuery);
