@@ -29,10 +29,10 @@
     var x = document.getElementById("collapsible-content");
     if (x.style.display === "none") {
       x.style.display = "block";
-      $("#collapsible-button").html("Hide FAQ");
+      $("#collapsible-button").html("Hide Prices");
     } else {
       x.style.display = "none";
-      $("#collapsible-button").html("Show FAQ");
+      $("#collapsible-button").html("Show Prices");
     }
   }
   $("#collapsible-button").click(function () {
