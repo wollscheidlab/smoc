@@ -38,6 +38,21 @@
   $("#collapsible-button").click(function () {
     toggleTeamMembers();
   });
+  $("#collapsible-menu-entry").click(function () {
+    var x = document.getElementById("collapsible-content");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      $("#collapsible-button").html("Hide Prices");
+    }
+  });
+  $(".expand-prices").click(function () {
+    var x = document.getElementById("collapsible-content");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      $("#collapsible-button").html("Hide Prices");
+    }
+  });
+
 
 	function populateCatalogue() {
 		console.log("jq")
