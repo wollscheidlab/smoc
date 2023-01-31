@@ -507,7 +507,7 @@ textarea {
  * small screens
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1140px) {
 	.block-s-1-6 .bgrid {
 		width: 16.66667%;
 	}
@@ -661,4 +661,4 @@ textarea {
 	text-align: center;
 }
 
-/*# sourceMappingURL=base.css.map */
+

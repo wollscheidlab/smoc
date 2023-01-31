@@ -1069,7 +1069,7 @@ header .logo a {
  * -
  */
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 990px) {
 	header {
 		top: 0;
 		padding: 6px 0;
@@ -1123,6 +1123,7 @@ a.menu-toggle {
 	position: absolute;
 	top: 0;
 	right: 30px;
+	min-height: 120px;
 }
 
 .main-navigation {
@@ -1130,6 +1131,7 @@ a.menu-toggle {
 	display: inline-block;
 	width: auto;
 	text-align: left;
+	padding-left: 150px;
 }
 
 .main-navigation li {
@@ -1223,7 +1225,7 @@ a.menu-toggle {
  * -
  */
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 990px) {
 	#main-nav-wrap {
 		display: block;
 		width: 100%;
@@ -1371,7 +1373,7 @@ a.menu-toggle {
  * -
  */
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 990px) {
 	#main-nav-wrap ul.main-navigation {
 		display: block !important;
 	}
@@ -2225,16 +2227,18 @@ a.menu-toggle {
 }
 
 .coordinators {
-	height: 240px;
+    height: 240px;
 	/* width: 180px; */
 }
 
 #highlights-slider .highlights-author img {
-	width: 8.2rem;
-	height: 8.2rem;
+	//width: 18.2rem;
+	//height: 18.2rem;
+	max-height: 20rem;
+	width: auto;
 	margin: 0 auto 1.2rem auto;
 	display: block;
-	border-radius: 50%;
+//	border-radius: 50%;
 	vertical-align: middle;
 	border: 9px solid #eaeaed;
 }
@@ -3360,7 +3364,7 @@ footer ul li {
 		max-width: 800px;
 	}
 	.aboutus-content .bgrid {
-		width: 50%;
+		width: 100%;
 		clear: none;
 	}
 	.aboutus-content .bgrid:nth-child(2n+1) {
@@ -3587,6 +3591,39 @@ footer ul li {
 	margin: 0 auto;
 }
 
+
+#testimonials {
+	background: #FFFFFF;
+	padding-top: 10.2rem;
+	padding-bottom: 12rem;
+	position: relative;
+	min-height: 20.4rem;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#testimonials .h01 {
+	padding-bottom: 2.1rem;
+	margin-bottom: 3.6rem;
+	position: relative;
+	color: #252525;
+}
+#testimonials .h01::after {
+	display: block;
+	background-color: #05bca9;
+	width: 120px;
+	height: 3px;
+	content: '\0020';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -60px;
+}
+#testimonials .flex-container {
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
 #testimonial-slider {
 	margin: 0 0 3rem 0;
 	position: relative;
@@ -3599,8 +3636,7 @@ footer ul li {
 	color: #8d8d8d;
 }
 
-#testimonial-slider p::before,
-#testimonial-slider p::after {
+#testimonial-slider p::before, #testimonial-slider p::after {
 	display: inline;
 	font-family: Arial, sans-serif;
 	color: #c7c7c7;
