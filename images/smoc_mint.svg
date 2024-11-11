@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1401 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <use xlink:href="#_Image1" x="704.907" y="634.795" width="293.204px" height="97.239px" transform="matrix(0.997292,0,0,0.992238,0,0)"/>
+<svg width="100%" height="100%" viewBox="0 0 1401 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="_Image1_" serif:id="_Image1" transform="matrix(0.997292,0,0,0.992238,702.998,629.868)">
+        <use xlink:href="#_Image1" x="0" y="0" width="294px" height="98px"/>
+    </g>
     <g transform="matrix(10.3192,0,0,9.99312,-2877.4,-11708.1)">
-        <text x="277.689px" y="1225.8px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(132,169,157);">SM</text>
-        <text x="377.684px" y="1225.8px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(132,169,157);">C</text>
+        <g transform="matrix(1,0,0,1,277.689,1225.8)">
+            <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(132,169,157);">SM</text>
+        </g>
+        <g transform="matrix(1,0,0,1,377.684,1225.8)">
+            <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(132,169,157);">C</text>
+        </g>
     </g>
-    <g transform="matrix(-0.136311,0.0465112,-0.0454176,-0.132148,1180.73,587.841)">
-        <text x="1261.18px" y="2241.18px" style="font-family:'Avenir-Book', 'Avenir';font-size:2377.65px;fill:rgb(120,192,177);">l</text>
+    <g transform="matrix(-0.136311,0.0465112,-0.0454176,-0.132148,907.028,350.333)">
+        <text x="0px" y="0px" style="font-family:'Avenir-Book', 'Avenir';font-size:2377.65px;fill:rgb(120,192,177);">l</text>
     </g>
-    <use xlink:href="#_Image2" x="702.044" y="198.628" width="321.223px" height="304.799px" transform="matrix(0.997587,0,0,0.99934,0,0)"/>
-    <use xlink:href="#_Image3" x="879.236" y="566.659" width="189.112px" height="187.181px" transform="matrix(0.995326,0,0,0.995645,0,0)"/>
-    <use xlink:href="#_Image4" x="628.207" y="652.074" width="140.657px" height="139.221px" transform="matrix(0.997569,0,0,0.994437,0,0)"/>
+    <g id="_Image2_" serif:id="_Image2" transform="matrix(0.997587,0,0,0.99934,700.35,198.497)">
+        <use xlink:href="#_Image2" x="0" y="0" width="322px" height="305px"/>
+    </g>
+    <g id="_Image3_" serif:id="_Image3" transform="matrix(0.995326,0,0,0.995645,875.126,564.191)">
+        <use xlink:href="#_Image3" x="0" y="0" width="190px" height="188px"/>
+    </g>
+    <g id="_Image4_" serif:id="_Image4" transform="matrix(0.997569,0,0,0.994437,626.68,648.447)">
+        <use xlink:href="#_Image4" x="0" y="0" width="141px" height="140px"/>
+    </g>
     <g id="Artboard2" transform="matrix(1,0,0,1,-7.10279,-21.0397)">
         <rect x="7.103" y="21.04" width="1400.37" height="799.851" style="fill:none;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-15,60)">
+        <text x="48.661px" y="869.113px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:110px;fill:rgb(132,169,157);">Swiss Multi-Omics Center</text>
     </g>
     <defs>
         <image id="_Image1" width="294px" height="98px" xlink:href="data:image/png;base64,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"/>
